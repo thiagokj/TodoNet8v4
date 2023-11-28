@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UserSecretsId>29f9c215-88e6-4c3b-851b-e6c9da216a1d</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Contexts\AccountContext\UseCases\Create\Contracts\" />
+    <Folder Include="Contexts\TodoContext\UseCases\Create\Contracts\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Flunt" Version="2.0.5" />
+    <PackageReference Include="MediatR" Version="12.2.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="SecureIdentity" Version="1.0.4" />
+  </ItemGroup>
+
+</Project>
